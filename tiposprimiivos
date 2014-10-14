@@ -1,0 +1,30 @@
+Enter file contents here
+
+public class Tipos1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    byte m=2;
+    short n=2;
+    int o=2;
+    long p=2;
+    
+    m=(byte)o;
+    p=m;
+    
+    n=(byte)p;
+    p=o;
+    o=n;
+    o=(int)p;
+    
+    
+    p=o;
+    o=n;
+    o=(short);
+    n=m;
+    n=m;
+    o=m;
+    
